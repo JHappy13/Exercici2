@@ -1,0 +1,24 @@
+img{
+    height: 40vh;
+}
+.blur:hover{
+    -webkit-filter: blur(10px);
+}
+.grayscale:hover{
+    -webkit-filter: grayscale(100%);
+}
+.sepia:hover{
+    -webkit-filter: sepia(100%);
+}
+.contrast:hover{
+    -webkit-filter: contrast(500%);
+}
+.matiz:hover{
+    -webkit-filter: hue-rotate(100deg);
+}
+.invert:hover{
+    -webkit-filter: invert(1000%);
+}
+.personalitzat:hover{
+    -webkit-filter: blur(1px) contrast(125%) hue-rotate(-100deg) grayscale(20%);  
+}
